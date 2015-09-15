@@ -2,7 +2,7 @@
 
 ##### A website that allows users to find out the price of a movie ticket. (9/15/15)
 
-#### By Logan Wu & Ian McKenney & Julio Diaz
+#### By Logan Wu, Ian McKenney & Julio Diaz
 
 ## Description
 
@@ -19,7 +19,7 @@ HTML, CSS, JavaScript, jQuery, MochaJS, Chai Assertion Library
 
 ### Legal
 
-Copyright (c) 2015 **Logan Wu & Ian McKenney & Julio Diaz**
+Copyright (c) 2015 **Logan Wu, Ian McKenney & Julio Diaz**
 
 This software is licensed under the MIT license.
 

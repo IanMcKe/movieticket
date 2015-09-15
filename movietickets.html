@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/scripts.js"></script>
+        <title>Movie Tickets</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>Movie Tickets</h1>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Pick a Movie</h2>
+                    <form id="new-ticket">
+                        <label for="new-title">Title:</label>
+                        <select id="new-title" name="new-title">
+                            <option value="Mad Max:Furry Road">Mad Max:Furry Road</option>
+                            <option value="Jurrasic World">Jurrasic World</option>
+                            <option value="Straight Outta Compton">Straight Outta Compton</option>
+                            <option value="Ex Machina">Ex Machina</option>
+                            <option value="Everest">Everest</option>
+                            <option value="Black Mass">Black Mass</option>
+                            <option value="Sicario">Sicario</option>
+                        </select>
+                        <label for="new-show-time">Show Time:</label>
+                        <select id="new-show-time" name="new-show-time">
+                            <option value="2:30PM">2:30PM</option>
+                            <option value="3:20PM">3:20PM</option>
+                            <option value="4:10PM">4:10PM</option>
+                            <option value="4:50PM">4:50PM</option>
+                            <option value="5:45PM">5:45PM</option>
+                            <option value="7:20PM">7:20PM</option>
+                            <option value="8:00PM">8:00PM</option>
+                            <option value="9:30PM">9:30PM</option>
+                            <option value="11:00PM">11:00PM</option>
+                        </select>
+                        <!-- <select id="new-age" name="new-age">
+                            <?php
+                                for($i = 1; $i < 100; $i++){
+                                    echo '<option value="' . $i . '">' . $i . '</option>';
+                                }
+                            ?>
+                        </select> -->
+                        <input id="new-age" type="number" placeholder="Age" min="1" max="100">
+                        <input id="new-show-date" type="date">
+
+                        <button type="submit" class="btn btn-danger btn-block">Get price</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h4 id="price-header">Your ticket price is: $<span id="price"></span></h4>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
