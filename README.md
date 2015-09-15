@@ -6,7 +6,7 @@
 
 ## Description
 
-Input fields include ```movie name```, ```time of showing```, ```user age```, and ```release-date```. The ```newContact``` object has the ```addresses``` property that has an array of ```newAddress``` objects.
+Input fields include ```movie-title```, ```show-time```, ```user-age```, and ```show-date```.
 
 ## Setup
 
